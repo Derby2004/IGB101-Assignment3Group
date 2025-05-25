@@ -8,6 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/IGB101 - Nathan/N. Scenes/IGB101 Assignment 3 project.unity
     guid: b997cbe33daab704599647a3db4bef47
+  - enabled: 1
+    path: Assets/IGB101 - Adam/a.Scenes/DwayneScene.unity
+    guid: 2cde38760f26a004fb02b2142e14db08
+  - enabled: 1
+    path: Assets/IGB101 - Dinh Minh Khoa Nguyen/D. Scenes/IGB101 Assignment 1 11960116.unity
+    guid: 45184f9f0d14db24686a7411e360db90
+  - enabled: 1
+    path: Assets/IGB101-Charlie/C. Scenes/Workshop2.unity
+    guid: df3bcaf8cbb5ca340a390e32b48373e9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
