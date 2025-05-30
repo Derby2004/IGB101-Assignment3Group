@@ -14,13 +14,22 @@ public class GameManager : MonoBehaviour
     public int currentPickups = 0;
     public int maxPickups = 5;
     public bool levelComplete = false;
+    public AudioClip levelCompleteSound;
 
     private void LevelCompleteCheck()
     {
-        if (currentPickups >= maxPickups)
+        if (currentPickups >= maxPickups && !levelComplete)
+        {
             levelComplete = true;
-        else
+            if (levelCompleteSound != null)
+            {
+                AudioSource.PlayClipAtPoint(levelCompleteSound, player.transform.position);
+            }
+        }
+        else if (currentPickups < maxPickups)
+        {
             levelComplete = false;
+        }
     }
 
     private void Update()

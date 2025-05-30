@@ -4,7 +4,7 @@ using UnityEngine;
 public class Pickup : MonoBehaviour
 {
     GameManager gameManager;
-
+    public AudioClip pickupSound;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +21,10 @@ public class Pickup : MonoBehaviour
     {
         if (otherObject.transform.tag == "Player")
         {
+            if (pickupSound != null)
+            {
+                AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+            }
             gameManager.currentPickups += 1;
             Destroy(this.gameObject);
         }
