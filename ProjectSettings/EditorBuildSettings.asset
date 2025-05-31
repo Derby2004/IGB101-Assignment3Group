@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/IGB101 - Dinh Minh Khoa Nguyen/D. Scenes/IGB101 Assignment 1 11960116.unity
     guid: 45184f9f0d14db24686a7411e360db90
-  - enabled: 1
+  - enabled: 0
     path: Assets/IGB101-Charlie/C. Scenes/Workshop2.unity
     guid: df3bcaf8cbb5ca340a390e32b48373e9
+  - enabled: 1
+    path: Assets/IGB101-Charlie/Assignment 3_HuuDucHuyBui_n11680679.unity
+    guid: f48094c115b0f82489190c38dee1a1c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

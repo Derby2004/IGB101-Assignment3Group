@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!43 &165245662
 Mesh:
   m_ObjectHideFlags: 0
@@ -616,6 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &509416546 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 171422856705322250, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
@@ -643,6 +645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &779921421 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3682086514052919609, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
@@ -660,6 +663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &886123094 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2810235263455306905, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
@@ -677,6 +681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!43 &992275539
 Mesh:
   m_ObjectHideFlags: 0
@@ -878,6 +883,7 @@ MonoBehaviour:
   currentPickups: 0
   maxPickups: 9
   levelComplete: 0
+  levelCompleteSound: {fileID: 0}
 --- !u!4 &1003945733
 Transform:
   m_ObjectHideFlags: 0
@@ -2033,6 +2039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &1540615418 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2023608236376623652, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
@@ -2050,6 +2057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1001 &1544937136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2131,7 +2139,7 @@ PrefabInstance:
       addedObject: {fileID: 1544937141}
     - targetCorrespondingSourceObject: {fileID: 2664611327374138500, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1544937140}
+      addedObject: {fileID: 1544937142}
   m_SourcePrefab: {fileID: 100100000, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
 --- !u!1 &1544937137 stripped
 GameObject:
@@ -2148,20 +2156,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1956471347963296720, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
   m_PrefabInstance: {fileID: 1544937136}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1544937140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544937137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39d7cb1f7aa15304ca069dabfe2dc04d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 1544937138}
-  rotSpeed: 10
 --- !u!143 &1544937141
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2187,6 +2181,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1544937142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544937137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccd5b4eca2450949a016c4c822353eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1544937138}
+  rotSpeed: 10
 --- !u!1 &1629580414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2514,6 +2522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &1968232919 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3967733096044369332, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
@@ -2531,6 +2540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70ac1a71157189540a683b8e7e6ca8f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 0}
 --- !u!1 &2034229182 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1630010719228952779, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
