@@ -63398,6 +63398,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1149935724}
+    - target: {fileID: 876716511068178961, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1180587728360687287, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
       propertyPath: m_Convex
       value: 1
@@ -63666,12 +63670,13 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 4270957808871777265, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
     - {fileID: 6204412340075248594, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
+    - {fileID: 876716511068178961, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1286979846724553158, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
       insertIndex: 28
       addedObject: {fileID: 1366680195}
     - targetCorrespondingSourceObject: {fileID: 1286979846724553158, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
-      insertIndex: 35
+      insertIndex: 34
       addedObject: {fileID: 1197823832}
     - targetCorrespondingSourceObject: {fileID: 1286979846724553158, guid: a0941f44abf54464896274ec0e8191e4, type: 3}
       insertIndex: -1
