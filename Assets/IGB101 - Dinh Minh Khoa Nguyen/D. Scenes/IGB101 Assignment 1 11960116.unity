@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255b11d6cbed6264aa186ebdcf43f451, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Workshop2
+  nextLevel: Assignment 3_HuuDucHuyBui_n11680679
 --- !u!64 &78196813
 MeshCollider:
   m_ObjectHideFlags: 0
