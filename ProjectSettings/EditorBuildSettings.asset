@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/IGB101-Charlie/C. Scenes/Workshop2.unity
     guid: df3bcaf8cbb5ca340a390e32b48373e9
   - enabled: 1
-    path: Assets/IGB101-Charlie/Assignment 3_HuuDucHuyBui_n11680679.unity
+    path: Assets/IGB101-Charlie/C. Scenes/Assignment 3_HuuDucHuyBui_n11680679.unity
     guid: f48094c115b0f82489190c38dee1a1c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
